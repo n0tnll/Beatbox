@@ -1,10 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Beatbox" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="Theme.Beatbox" parent="Theme.AppCompat">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryDark">@color/purple_700</item>
-        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/dark_red</item>
+        <item name="colorAccent">@color/gray</item>
         <!-- Customize your theme here. -->
+
+        <item name="android:windowBackground">@color/soothing_blue</item>
+        <item name="buttonStyle">@style/BeatBoxButton</item>
     </style>
+
+    <style name="BeatBoxButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/button_beat_box</item>
+    </style>
+
 </resources>
